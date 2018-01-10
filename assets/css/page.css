@@ -1,0 +1,42 @@
+/**
+  * Remove default margins and paddings
+  */
+
+  * {
+  	margin: 0;
+  	padding: 0;
+  	-webkit-margin-before: 0;
+  	-webkit-margin-after: 0;
+  	-webkit-padding-start: 0;
+  }
+
+  /**
+    * Fonts
+    */
+body {
+	font-family: monospace;
+}
+
+  /**
+    * Header
+    */
+ header {
+ 	text-align: center;
+ 	background-color: #1e2d5d;
+ 	color: #fff;
+ 	padding: 20px 0 20px 0;
+ 	margin-bottom: 30px;
+ }
+
+ header a {
+  color: #fff;
+  text-decoration: none;
+ }
+
+ /**
+   * EZSlider
+   */
+.ezslide-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
